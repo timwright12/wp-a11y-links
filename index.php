@@ -1,6 +1,6 @@
 <?php
 /*
-* Plugin Name: A11y Links by Fresh Tilled Soil
+* Plugin Name: A11y Links by Tim Wright
 * Plugin URI: https://github.com/timwright12/PHP-content-a11y-links
 * Description: Search a content block (string or object) with PHP to look for any links that open in a new window which need a "new window" icon to be accessible
 * Version: 0.1
