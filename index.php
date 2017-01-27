@@ -14,7 +14,7 @@ function filter_A11yLinks ( $content ) {
   
     $content = str_get_html( $content );
   
-  foreach($content->find('a') as $element) {
+  foreach( $content->find( 'a' ) as $element ) {
     
     if( $element->target === '_blank' ) {
       $element->innertext .= ' <span class="a11y-icon-new-window"><img src="' . plugin_dir_url( __FILE__ ) . 'assets/images/new-window.svg" alt="This link opens in a new window"></span>';
